@@ -17,7 +17,7 @@ int letterToNumber(char letter);
 void Shoot();
 
 void Login() {
-/*	char lock[4][4];
+	char lock[4][4];
 	int failCounter = 0;	
 	Readfromfile();
 	do {
@@ -71,14 +71,14 @@ void Login() {
 				correct++;
 			}
 		}
-		if (correct == 10) {*/
+		if (correct == 10) {
 			Menu();
-			/*failCounter = 3;
+			failCounter = 3;
 		}
 		else {
 			failCounter++;
 		}
-	} while (failCounter < 3);*/
+	} while (failCounter < 3);
 }
 void Printlock(char lock[4][4]) {
 
